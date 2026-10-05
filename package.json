@@ -2,11 +2,10 @@
   "name": "civillink",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "start": "parcel index.html",
-  "build": "parcel build index.html --public-url /CivilProject/"
-},
-
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
