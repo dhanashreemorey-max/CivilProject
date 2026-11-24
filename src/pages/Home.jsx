@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, Button, Form } from 'react-bootstrap'
 import categories from '../data/categories'
 import CategoryCard from '../components/CategoryCard'
 import professionals from '../data/professionals'
+import LocationPicker from '../components/LocationPicker'
 
 const slideImages = [
   'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
@@ -52,6 +53,7 @@ export default function Home(){
                 style={{ maxWidth: 220 }}
               />
               <Button type="button" onClick={() => window.location.href = '/explore'}>Search</Button>
+              <LocationPicker location={location} setLocation={setLocation} />
             </Form>
             <div className="mt-3 d-flex gap-2 flex-wrap">
               <Link to="/explore" className="btn btn-outline-primary">Explore Nearby</Link>

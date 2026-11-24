@@ -13,8 +13,6 @@ export default function AppNavbar(){
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/explore">Explore</Nav.Link>
             <Nav.Link as={Link} to="/professionals">Professionals</Nav.Link>
-            <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-            <Nav.Link as={Link} to="/tools">Tools</Nav.Link>
           </Nav>
           <Form className="d-flex" role="search">
             <Form.Control type="search" placeholder="Search contractors, architects..." className="me-2" />

@@ -1,6 +1,6 @@
 const categories = [
   { id: 'civil-contractors', name: 'Civil Contractors', color: '#0d6efd', description: 'Building construction, RCC work, structural work.' },
-  { id: 'road-highway', name: 'Road & Highway Contractors', color: '#fd7e14', description: 'Road construction, highway and infrastructure.' },
+  { id: 'road-highway', name: 'Hardware Materials', color: '#fd7e14', description: 'Road construction, highway and infrastructure.' },
   { id: 'structural-engineers', name: 'Structural Engineers', color: '#198754', description: 'Structural design, analysis and consultation.' },
   { id: 'architects', name: 'Architects', color: '#6f42c1', description: 'Building planning, architectural design and drawings.' },
   { id: 'interior-designers', name: 'Interior Designers', color: '#ffb6c1', description: 'Interior planning, decoration and space design.' },

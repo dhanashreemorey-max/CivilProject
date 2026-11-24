@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react'
 import { Container, Row, Col, Form, Button } from 'react-bootstrap'
 import professionals from '../data/professionals'
 import ProfessionalCard from '../components/ProfessionalCard'
+import LocationPicker from '../components/LocationPicker'
 
 export default function Professionals(){
   const [search, setSearch] = useState('')
@@ -36,6 +37,7 @@ export default function Professionals(){
           style={{ maxWidth: 220 }}
         />
         <Button type="button" variant="primary">Find</Button>
+        <LocationPicker location={location} setLocation={setLocation} />
       </Form>
 
       <Row className="g-3 mt-3">

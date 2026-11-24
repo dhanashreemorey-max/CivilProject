@@ -68,3 +68,20 @@ body {
 .category-badge {
   width:12px; height:12px; display:inline-block; border-radius:3px; margin-right:8px;
 }
+
+.location-picker-button {
+  width: 42px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 42px;
+  padding: 0;
+}
+
+.google-map-frame {
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+  background: #e9ecef;
+}

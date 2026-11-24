@@ -15,6 +15,7 @@ export default function ProfessionalCard({p}){
               <div className="small mt-1">📞 <a href={`tel:${p.phone}`}>{p.phone}</a></div>
             )}
           </div>
+         
         </div>
         <p className="small text-truncate">{p.services.join(' • ')}</p>
         <div className="d-flex justify-content-between align-items-center mt-3">
